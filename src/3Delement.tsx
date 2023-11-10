@@ -76,9 +76,10 @@ export default function _3Delement(){
             // 메쉬를 구성하는 면에 대해서 앞면만 랜더링 할 것인지 뒷면만 랜더링 할 것인지 또는 둘다 랜더링 할것인지
             // 삼각형의 좌표가 시계방향,반시계방향 구성인지에 따라 앞면이 다름 반시계방향이 앞면
             side={THREE.FrontSide}
-
+            color={"#d25383"}
+            // 재질 자체에서 발산하는 색상값
+            emissive={0x666600}
             wireframe={false}
-            color={"#ffff00"}
             />
         </mesh>
 
