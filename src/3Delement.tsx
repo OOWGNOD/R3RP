@@ -58,7 +58,8 @@ export default function _3Delement(){
             <boxGeometry 
             // args={[xSize,ySize,zSize,xSegments,ySegments,zSegments]}
             />
-            <meshLambertMaterial
+            {/* 매쉬가 랜더링되는 픽센단위로 광원의 영향을 계산하는 재질 */}
+            <meshPhongMaterial
             // mesh가 보일지 안 보일지 설정
             visible={true}
             // 투명도 사용여부
